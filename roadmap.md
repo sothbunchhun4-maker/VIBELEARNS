@@ -15,12 +15,12 @@ This roadmap defines the strict order of implementation for the Vibelearn projec
 - [x] 1.4: Configure ESLint and Prettier across both workspaces.
 - [x] 1.5: Create `.env.example` in both `frontend` and `backend` (stubs for Clerk, Supabase, API URLs).
 - [x] 1.6: Verify both development servers start successfully (`npm run dev`).
-- [ ] 1.7: **CHECKPOINT:** Get user approval before moving to the frontend.
+- [x] 1.7: **CHECKPOINT:** Get user approval before moving to the frontend.
 
 ## Phase 2: Frontend First (UI & Layouts)
 **Goal:** Build the complete UI using mock data before touching the backend.
 
-- [ ] 2.1: Draft and finalize `docs/system_design/DESIGN.md` to establish UI consistency guidelines.
+- [x] 2.1: Draft and finalize `docs/system_design/DESIGN.md` to establish UI consistency guidelines.
 - [ ] 2.2: Implement the global design system (typography, colors) in Tailwind.
 - [ ] 2.3: Integrate Clerk React SDK into the `frontend` for Sign Up / Log In UI.
 - [ ] 2.4: Protect specific frontend routes (e.g., `/my-learning`) using Clerk components.
